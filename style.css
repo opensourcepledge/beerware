@@ -90,10 +90,10 @@ ul, li {
       height: 800px;
       position: absolute;
       right: 50%;
-      top: 270px;
+      top: 240px;
     }
     .copy {
-      margin: 80px 0 0 400px;
+      margin: 200px 0 0 400px;
       p a {
         background: no-repeat left/50px url('yt.png');
         padding-left: 60px;
@@ -118,7 +118,7 @@ ul, li {
     .copy {
       text-align: center;
     }
-    ul {
+    ul.links {
       margin: 40px auto;
       li {
         a {
@@ -136,6 +136,21 @@ ul, li {
           padding: 80px 0 0;
           display: block;
           text-decoration: none;
+        }
+      }
+    }
+    ul.quotes {
+      li {
+        margin: 40px 0;
+        img {
+          height: 240px;
+          border-radius: 240px;
+        }
+        blockquote {
+          padding-top: 80px;
+          width: 60%;
+          float: right;
+          text-align: left;
         }
       }
     }
@@ -160,36 +175,6 @@ ul, li {
             height: 60px;
           }
         }
-      }
-    }
-  }
-  .endorsements {
-    background: red;
-    background: #EFB219;
-    padding: 80px 0;
-    .copy {
-      text-align: center;
-    }
-    h2 {
-      font-size: 60px;
-      text-align: center;
-    }
-    .copy {
-      margin: 40px 0 0;
-      line-height: auto;
-      ul {
-        li {
-          margin: 40px 0;
-          img {
-            height: 240px;
-            border-radius: 240px;
-          }
-          blockquote {
-            padding-top: 80px;
-            width: 60%;
-            float: right;
-            text-align: left;
-          }
       }
     }
   }
