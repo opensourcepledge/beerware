@@ -101,7 +101,6 @@ ul, li {
     }
   }
   .empty {
-    height: 640px;
     img.big {
       height: 400px;
       margin: 0 0 0 40px;
@@ -110,6 +109,26 @@ ul, li {
     }
     .copy {
       margin: 80px 460px 0 40px;
+    }
+    .logos {
+      text-align: center;
+      h2 {
+        margin: 160px 0 80px;
+      }
+      p {
+        margin: 0 0 120px;
+      }
+      .logos-logos {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        gap: 0.5rem 1rem;
+        .logo {
+					display: flex ;
+					align-items: center;
+					justify-content: center;
+					padding: .5rem;e
+        }
+      }
     }
   }
   .mission {
